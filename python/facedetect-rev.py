@@ -1,5 +1,5 @@
 import cv
-HAAR_CASCADE_PATH = 'palm.xml' 
+HAAR_CASCADE_PATH = './haarcascade_frontalface_alt2.xml' 
 
 def detect_faces(frame):
     faces = []
